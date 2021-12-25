@@ -1915,6 +1915,7 @@
 }
 
 .file_path_input input {
+	color: #eee;
 	border: 1px solid #cfcfcf;
 	display: inline-block;
 	width: 100%;
