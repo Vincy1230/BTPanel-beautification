@@ -1,30 +1,21 @@
 /*
- * 宝塔面板美化 - Vincent 修改
- * 本文件二次修改自 Lizy 美化版本 https://blog.imlazy.ink:233/index.php/archives/38/
- * 项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
- * Blog: https://blog.vincent1230.top/
- * Last Date: 2021.12.17
+ *  宝塔面板美化 - Vincent 修改
+ *  项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
+ *  Blog: https://blog.vincent1230.top/
+ *  Last Date: 2021.12.17
  */
-
-/* 自行添加 */
-
-canvas {
-    background: #fff;
-    padding: 5px;
-}
-
-/* 自行添加 end */
 
 body {
 	font-family: 华文黑体, "Microsoft YaHei", 微软雅黑, STHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-    height: 100vh;
+	margin: 0;
+	height: 100vh;
+	/* 登录页背景 */
 	/* 请将背景图片的url填写在下方，当然，你也可以选择使用随机图api、背景色代码等其他方式。 */
-    background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg), #444;
-    background-position: top;
-    background-size: cover;
+	background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg), #444;
+	background-position: top;
+	background-size: cover
 }
-/* 关于背景图片，这里也为你准备了一些备用。 */
+/* 关于登录页背景，这里为你准备了一些图片备用。 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei2.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/kxjs.jpg 科学教室 */
@@ -35,14 +26,19 @@ body {
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/YourName.jpg 你的名字 */
 /* 另外，你可以在 https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/4K/ 找到对应壁纸的4K版本。 */
 
+canvas {
+	background: #fff;
+	padding: 5px
+}
+
 input {
 	-webkit-appearance: none
 }
 
 .main .login {
-    background-color: rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 3px rgb(0 0 0 / 75%);
-    backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px -5px rgb(0 0 0 / 75%), 0px 0 10px 3px rgb(0 0 0 / 75%);
+	backdrop-filter: blur(5px);
 	border-radius: 16px;
 	height: 290px;
 	left: 70%;
@@ -87,9 +83,9 @@ input {
 }
 
 .main .login .line .inputtxt {
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(5px);
-    color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	color: #fff;
 	float: left;
 	width: 338px;
 	height: 30px;
@@ -708,7 +704,7 @@ body {
 }
 
 .list_scan span {
-    color: #eee;
+	color: #eee;
 	display: inline-block;
 	font-size: 13px;
 	margin-bottom: 5px

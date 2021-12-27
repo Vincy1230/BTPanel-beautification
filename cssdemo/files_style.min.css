@@ -1,10 +1,33 @@
 /*
- * 宝塔面板美化 - Vincent 修改
- * 本文件二次修改自 Lizy 美化版本 https://blog.imlazy.ink:233/index.php/archives/38/
- * 项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
- * Blog: https://blog.vincent1230.top/
- * Last Date: 2021.12.17
+ *  宝塔面板美化 - Vincent 修改
+ *  本文件二次修改自 Lizy 美化版本 https://blog.imlazy.ink:233/index.php/archives/38/
+ *  项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
+ *  Blog: https://blog.vincent1230.top/
+ *  Last Date: 2021.12.17
  */
+
+.file_bodys {
+	/* 文件资源管理器的显示效果，可以此修改。 */
+	background-color: rgba(0, 0, 0, 0.3);		/* 卡片背景着色 */
+	box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 3px rgb(0 0 0 / 75%);		/* 卡片阴影 */
+	backdrop-filter: blur(5px);		/* 卡片背景模糊 */
+}
+/* 关于文件资源管理器的显示效果，这里为你准备了一些推荐的配置值。 */
+/* 推荐的配置 一 默认效果
+background-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 3px rgb(0 0 0 / 75%);
+backdrop-filter: blur(5px);
+*/
+/* 推荐的配置 二 透明效果
+background-color: rgba(0, 0, 0, 0.2);
+box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 2px rgb(0 0 0 / 75%);
+backdrop-filter: blur(0px);
+*/
+/* 推荐的配置 三 明亮效果
+background-color: rgba(0, 0, 0, 0.15);
+box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 25%), 0px 0px 5px 2px rgb(0 0 0 / 50%);
+backdrop-filter: blur(3px);
+*/
 
 .webDelete .vcode #vcodeResult {
 	width: 50px;
@@ -67,7 +90,7 @@
 	border-radius: 2px;
 	cursor: pointer;
 	transition: all .2s;
-	background-color: rgba(0,0,0,0.2)
+	background-color: rgba(0, 0, 0, 0.2)
 }
 
 .file_list_header .file_main_title {
@@ -818,9 +841,9 @@
 	top: -100%;
 	z-index: 9999;
 	background: rgba(0, 0, 0, 0.7);
-    border-radius: 16px;
-	border: 1px solid rgba(255,255,255,0.5);
-    backdrop-filter: blur(5px);
+	border-radius: 16px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	backdrop-filter: blur(5px);
 }
 
 .content_right_menu li,
@@ -880,13 +903,11 @@
 	font-style: normal
 }
 
-/* new */
 .selection_right_menu .nav_down_list .soft_link_file_icon,
 .selection_right_menu .soft_link_file_icon {
 	background-size: 16px!important;
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABVklEQVQ4T2NkYGBgCJj7we0/E1Mfw///2iA+NiArwMQgwc+QW+PMOwVZnhHE8Z/3aT8Dw38HXJpB4iADrBVZGe6++41iCMkG/PvHwHD/A8IQog0Q4GRk8NBggzsS5hKiDcD0HuOBjUl8jgQNyLLiYPj+h4Hh4rM/DOee/EEyhwgD/LTZGJLMOBhKN39l6PblZgiY/4k0AzYk8jEkr/rC8PbrP4aVsbwM4Ys/E2+AphgzQ5AeO8Pdt38Z1ESYGc4++cOw9fov4g0AxXujOzfD7lu/GE4//sNw581ftHDEEwYZlhwM117+Zfj++z9DtQsXQ9zyzwyffvwn3oBiB06G3gPfGawVWBlKHTnRAg9mDh4XTA/mYdhz6zdDrAk7Q/nWrww3X6E7H2QIgWgEhcHjD//wZA8i0gG+zIXigsB5n3z+MfyfzMDAoIBfE1z2ARMDY+76JL4tAFXGthEWh1PJAAAAAElFTkSuQmCC)!important
 }
-/* end new */
 
 .nav_down_list:before {
 	content: '';
@@ -2324,8 +2345,6 @@
 }
 
 .file_bodys {
-	background-color: rgba(0, 0, 0, 0.3);
-	box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 3px rgb(0 0 0 / 75%);
 	margin: 10px 15px;
 	padding: 15px 20px;
 	font-size: 12px;
@@ -2333,7 +2352,6 @@
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
-	backdrop-filter: blur(5px);
 }
 
 .file_list_icon {
@@ -2815,8 +2833,6 @@
 .file_menu_tips span:nth-child(2) {
 	font-size: 12px
 }
-
-/* new */
 
 .bt-property-setting .tab-nav {
 	font-size: 0
