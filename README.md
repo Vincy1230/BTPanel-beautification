@@ -24,7 +24,7 @@
 
 
 #### 详细教程、自定义选项、更新记录、交流反馈、壁纸获取
-欢迎访问关注我的个人博客文章 [[宝塔面板]面板主题美化包](https://blog.vincent1230.top/index.php/vincent1230/technology/website/314/)，欢迎各位与我交流！
+欢迎访问关注我的个人博客文章 [[宝塔面板] 面板主题美化包](https://blog.vincent1230.top/index.php/vincent1230/technology/website/314/)，欢迎各位与我交流！
 
 
 ###### 如果你喜欢本主题，请一定给个 Star，至为感谢<(￣︶￣)~
