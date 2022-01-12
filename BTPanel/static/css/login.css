@@ -11,7 +11,7 @@ body {
 	height: 100vh;
 	/* 登录页背景 */
 	/* 请将背景图片的url填写在下方，当然，你也可以选择使用随机图api、背景色代码等其他方式。 */
-	background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg), #444;
+	background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku1.jpg), #444;
 	background-position: top;
 	background-size: cover
 }

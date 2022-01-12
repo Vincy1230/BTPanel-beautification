@@ -8,9 +8,9 @@
 
 .file_bodys {
 	/* 文件资源管理器的显示效果，可以此修改。 */
-	background-color: rgba(0, 0, 0, 0.3);		/* 卡片背景着色 */
-	box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 75%), 0px 0px 10px 3px rgb(0 0 0 / 75%);		/* 卡片阴影 */
-	backdrop-filter: blur(5px);		/* 卡片背景模糊 */
+	background-color: rgba(0, 0, 0, 0.15);		/* 卡片背景着色 */
+	box-shadow: 0px 0px 10px -5px rgb(0 0 0 / 25%), 0px 0px 5px 2px rgb(0 0 0 / 50%);		/* 卡片阴影 */
+	backdrop-filter: blur(3px);		/* 卡片背景模糊 */
 }
 /* 关于文件资源管理器的显示效果，这里为你准备了一些推荐的配置值。 */
 /* 推荐的配置 一 默认效果
