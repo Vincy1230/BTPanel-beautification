@@ -23,7 +23,7 @@
 2. 同时感谢 [维安雨轩](https://blog.ukenn.top/) 的文章 [宝塔Linux面板主题](https://blog.ukenn.top/baota/)。
 
 
-#### 详细教程、自定义选项、更新记录、交流反馈、壁纸获取
+#### 效果展示、详细教程、自定义选项、更新记录、交流反馈、壁纸获取
 欢迎访问关注我的个人博客文章 [[宝塔面板] v7.8.0 面板主题美化包](https://blog.vincent1230.top/index.php/vincent1230/technology/website/607/)，欢迎各位与我交流！
 
 
