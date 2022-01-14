@@ -3,7 +3,7 @@
  *  本文件二次修改自 Lizy 美化版本 https://blog.imlazy.ink:233/index.php/archives/38/
  *  项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
  *  Blog: https://blog.vincent1230.top/
- *  Last Date: 2022.01.12
+ *  Last Date: 2022.01.14
  */
 
 .beautification {
@@ -1929,7 +1929,7 @@ html .menu .menu_btwaf:hover {
 .bt-form-submit-btn {
 	background: rgba(255, 110, 150, 0.3);
 	border-top: 1px solid #edf1f2;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 16px 16px;
 	bottom: 0;
 	left: 0;
 	padding: 8px 20px 10px;
@@ -1969,7 +1969,8 @@ html .menu .menu_btwaf:hover {
 	float: left;
 	background-color: rgba(240, 240, 241, 0.2);
 	height: 100%;
-	width: 110px
+	width: 110px;
+	border-radius: 0 0 0 16px;
 }
 
 .bt-w-menu p {
@@ -2779,7 +2780,7 @@ html .menu .menu_btwaf:hover {
 
 .layui-layer-btn {
 	background-color: rgba(255, 110, 150, 0.3)!important;
-	border-radius: 0 0 5px 5px;
+	border-radius: 0 0 16px 16px;
 }
 
 .newFolderName {

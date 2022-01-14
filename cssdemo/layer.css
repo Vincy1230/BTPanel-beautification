@@ -2,7 +2,7 @@
  *  宝塔面板美化 - Vincent 修改
  *  项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
  *  Blog: https://blog.vincent1230.top/
- *  Last Date: 2022.01.12
+ *  Last Date: 2022.01.14
  */
 
 .layui-layer-imgbar,
@@ -54,7 +54,8 @@ html #layuicss-skinlayercss {
 }
 
 .layui-layer-content {
-	position: relative
+	position: relative;
+	border-radius: 0 0 0 16px;
 }
 
 .layui-layer-border {
@@ -106,7 +107,7 @@ html #layuicss-skinlayercss {
 }
 
 .layui-layer {
-	border-radius: 2px;
+	border-radius: 16px;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
 	-webkit-animation-duration: .3s;
@@ -422,7 +423,7 @@ html #layuicss-skinlayercss {
 	color: #333;
 	overflow: hidden;
 	background-color: #f8f8f8;
-	border-radius: 2px 2px 0 0
+	border-radius: 16px 16px 0 0
 }
 
 .layui-layer-setwin {
