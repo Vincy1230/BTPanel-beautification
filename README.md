@@ -6,7 +6,7 @@
 
 #### 安装教程
 1. 请先备份 `/www/server/panel/BTPanel` 目录。
-2. 下载本项目中的 BTPanel 文件夹，并上传至服务器 `根目录/www/server/panel` (即覆盖 `/www/server/panel/BTPanel` 文件夹中的同名文件)
+2. 下载本项目中的 `BTPanel` 文件夹，并上传至服务器 `根目录/www/server/panel` (即覆盖 `/www/server/panel/BTPanel` 文件夹中的同名文件)
 3. 在服务器终端执行 `bt 9` 命令清除宝塔面板缓存。
 4. 清除浏览器本地缓存，重新登录宝塔面板即可。
 
