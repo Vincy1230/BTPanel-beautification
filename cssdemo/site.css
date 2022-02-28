@@ -3,7 +3,7 @@
  *  本文件二次修改自 Lizy 美化版本 https://blog.imlazy.ink:233/index.php/archives/38/
  *  项目地址: https://gitee.com/Vincent1230/BTPanel-beautification/
  *  Blog: https://blog.vincent1230.top/
- *  Last Date: 2022.01.14
+ *  Last Date: 2022.02.28
  */
 
 .beautification {
@@ -14,12 +14,15 @@
 /* 关于网站背景，这里为你准备了一些图片备用。 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei2.jpg 集原美 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei3.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/kxjs.jpg 科学教室 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/LetsGoHome.jpg Let's Go Home */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku1.jpg 猫羽雫 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku2.jpg 猫羽雫 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/WeatheringWithYou.jpg 天气之子 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/YourName.jpg 你的名字 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/coffee1.jpg 咖啡馆 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/beer.jpg 啤酒少女 */
 /* 另外，你可以在 https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/4K/ 找到对应壁纸的4K版本。 */
 
 .bgw {
@@ -51,6 +54,18 @@ border-radius: 16px;
 
 .control-item {
 	color: #aaa;
+}
+
+.configure-box .line .line-title {
+	color: #eee !important;
+}
+
+.configure-title {
+	color: #eee !important;
+}
+
+.line-row-tips {
+	color: #eee !important;
 }
 
 .thumbnail-introduce {
@@ -3051,6 +3066,7 @@ html .menu .menu_btwaf:hover {
 
 .footer {
 	bottom: 0;
+	left: 0;
 	position: absolute;
 	text-align: center;
 	width: 100%;
@@ -15619,21 +15635,283 @@ textarea {
 
 /* site的tab切换 */
 
+.tab-list .tabs-item:hover {
+	background: #20a53a08;
+}
+
+.tab-list .tabs-item:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
 .tab-list .tabs-item {
 	display: inline-block;
-	height: 50px;
-	color: #aaa;
-	padding: 0 25px;
-	line-height: 50px;
-	font-size: 15px;
+	height: 45px;
+	min-width: 100px;
+	padding: 0 20px;
+	line-height: 45px;
+	font-size: 13px;
 	cursor: pointer;
+	position: relative;
+	text-align: center;
+}
+
+.tab-list .tabs-item.active:after {
+	content: '';
+	width: 20px;
+	height: 2px;
+	position: absolute;
+	left: 50%;
+	bottom: 0px;
+	background: red;
+	margin-left: -10px;
+	background: #20a53a;
 }
 
 .tab-list .tabs-item.active {
-	border-bottom: #20a53a 2px solid;
 	color: #20a53a;
-	font-weight: 500;
+	background: #20a53a10;
+}
+
+/* 设置页面 */
+
+.layer-info-ico {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.layer-info-title {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	font-size: 21px;
+}
+
+.explainDescribeList {
+	border: 1px solid #ececec;
+	border-radius: 6px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #f7f7f7;
+	padding: 15px;
+	list-style-type: inherit;
+}
+
+.agreementBox label {
+	font-weight: 400;
+	margin: 0 0 0 5px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.agreementBox input {
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	margin-top: 0;
+	cursor: pointer;
 }
 
 
-/* end */
+/* 首页专业版推荐 */
+
+.recommend-top {
+	height: 50px;
+	line-height: 22px;
+	display: flex;
+	align-items: center;
+}
+
+.recommend-bottom {
+	margin-top: 10px;
+}
+
+.product-ico {
+	display: inline-block;
+	margin-right: 10px;
+	width: 90px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.product-buy {
+	margin-right: 15px;
+	display: inline-block;
+	font-size: 13px;
+	color: #666;
+	vertical-align: middle;
+}
+
+.product-buy span {
+	font-weight: bold;
+	color: #fc6d26;
+	vertical-align: middle;
+}
+
+.pro-bg,
+.ltd-bg {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.ltd-bg {
+	background-color: rgb(255 251 241);
+}
+
+.pro-bg {}
+
+.pro-ico {
+	width: 70px;
+	margin-right: 5px;
+	background-image: url("/static/images/pro.svg");
+}
+
+.ltd-ico {
+	width: 70px;
+	margin-right: 5px;
+	background-image: url("/static/images/ltd.svg");
+}
+
+.pro-pay-ico {
+	background-image: url("/static/images/pro_pay.svg");
+}
+
+.ltd-pay-ico {
+	background-image: url("/static/images/ltd_pay.svg");
+}
+
+.product-expire {
+	display: flex;
+	color: #666;
+	margin-left: 10px;
+}
+
+.product-expire.permanent span {
+	color: #F39C12;
+	font-weight: bold;
+}
+
+.product-label {
+	display: inline-block;
+	font-size: 13px;
+}
+
+.product-label .item {
+	display: inline-block;
+	position: relative;
+	margin-right: 15px;
+	padding-left: 20px;
+	color: #666;
+}
+
+.product-label .item::after {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 6px;
+	border-left: 2px solid #20a532;
+	border-bottom: 2px solid #20a532;
+	transform: rotate(-45deg);
+	position: absolute;
+	left: 5px;
+	top: 6px;
+}
+
+.recommend-soft {
+	position: relative;
+}
+
+.recommend-soft .images {
+	text-align: center;
+	margin: 22px 0 10px;
+	height: 40px;
+}
+
+.recommend-soft .product-name {
+	text-align: center;
+	color: #999;
+	margin-bottom: 10px;
+}
+
+.recommend-soft .product-pay-btn {
+	text-align: center;
+}
+
+.recommend-soft .product-pay-btn button {
+	padding: 3px 8px;
+}
+
+.recom-iconfont:hover .product-close {
+	display: inline-block;
+}
+
+.recom-iconfont .product-close {
+	position: absolute;
+	top: -1.5px;
+	right: -6px;
+	height: 18px;
+	line-height: 18px;
+	width: 60px;
+	text-align: center;
+	background: #efefef;
+	opacity: 0.5;
+	transform: scale(.8);
+	display: none;
+}
+
+.recom-iconfont .product-close:hover {
+	opacity: .8;
+	background-color: red;
+	color: #fff;
+}
+
+.recom-iconfont::after {
+	content: '推荐';
+	height: 18px;
+	width: 40px;
+	line-height: 18px;
+	text-align: center;
+	background: #efefef;
+	display: inline-block;
+	top: -1.5px;
+	left: -4px;
+	position: absolute;
+	opacity: 0.5;
+	transform: scale(.8);
+}
+
+.product_view {
+	display: inline-block;
+	width: 350px;
+	border: 2px solid #ececec;
+	border-radius: 4px;
+	cursor: pointer;
+	flex: 2;
+}
+
+.product_view img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+.product_describe {
+	display: inline-block;
+	padding: 5px 0 0 30px;
+	flex: 3;
+	color: #666;
+}
+
+.product_describe .describe_title {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.product_describe .describe_ps {
+	padding-top: 10px;
+	font-size: 13px;
+	height: 110px;
+}
