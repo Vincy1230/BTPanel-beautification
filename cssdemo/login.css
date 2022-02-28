@@ -11,20 +11,37 @@ body {
 	height: 100vh;
 	/* 登录页背景 */
 	/* 请将背景图片的url填写在下方，当然，你也可以选择使用随机图api、背景色代码等其他方式。 */
-	background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku1.jpg), #444;
+	background: url(https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/beer.jpg), #444;
 	background-position: top;
 	background-size: cover
 }
 /* 关于登录页背景，这里为你准备了一些图片备用。 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei1.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei2.jpg 集原美 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/JiYuanmei3.jpg 集原美 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/kxjs.jpg 科学教室 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/LetsGoHome.jpg Let's Go Home */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku1.jpg 猫羽雫 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku2.jpg 猫羽雫 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku3.jpg 猫羽雫 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku4.jpg 猫羽雫 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/NekohaShizuku5.jpg 猫羽雫 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/WeatheringWithYou.jpg 天气之子 */
 /* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/YourName.jpg 你的名字 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/coffee1.jpg 咖啡馆 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/beer.jpg 啤酒少女 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/Genshin1.jpg 优菈 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/Genshin2.jpg 云堇 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/Genshin3.jpg 魈 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/Genshin4.jpg 海岛大冒险 */
+/* https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/Genshin5.jpg 温迪 */
 /* 另外，你可以在 https://cdn.jsdelivr.net/gh/VincentSHI1230/BTPanel-beautification@master/background/4K/ 找到对应壁纸的4K版本。 */
+
+.main .login {
+	left: 30%;
+	/* 登录控件偏移量 */
+	/* 设置登录页登录控件位置，50%为居中。推荐不超过 30% ~ 70% */
+}
 
 canvas {
 	background: #fff;
@@ -41,7 +58,6 @@ input {
 	backdrop-filter: blur(5px);
 	border-radius: 16px;
 	height: 290px;
-	left: 70%;
 	margin-left: -220px;
 	margin-top: -180px;
 	padding: 35px 40px 50px;
