@@ -1,7 +1,7 @@
 # 宝塔面板美化
 
 #### 介绍
-本美化包是基于宝塔 Linux 面板 7.8.0 免费版制作的面板美化主题。通过覆盖原有模板文件，实现对宝塔面板前端的美化。
+本美化包是基于宝塔 Linux 面板 7.9.0 免费版制作的面板美化主题。通过覆盖原有模板文件，实现对宝塔面板前端的美化。
 
 
 #### 安装教程
@@ -20,11 +20,11 @@
 
 #### 特别鸣谢
 1. 本主题修改自 [[宝塔主题] 洛天依(秋)](https://blog.imlazy.ink:233/index.php/archives/38/)，在此特别鸣谢原版作者 [Lazy](https://blog.imlazy.ink:233/)。
-2. 同时感谢 [维安雨轩](https://blog.ukenn.top/) 的文章 [宝塔Linux面板主题](https://blog.ukenn.top/baota/)。
+2. 同时感谢 [维安雨轩](https://blog.ukenn.top/) 的文章 [宝塔Linux面板主题](https://blog.ukenn.top/baota/) 给予的创作灵感。
 
 
 #### 效果展示、详细教程、自定义选项、更新记录、交流反馈、壁纸获取
-欢迎访问关注我的个人博客文章 [[宝塔面板] v7.8.0 面板主题美化包](https://blog.vincent1230.top/index.php/vincent1230/technology/website/607/)，欢迎各位与我交流！
+欢迎访问关注我的个人博客文章 [[宝塔面板] v7.9.0 面板主题美化包](https://blog.vincent1230.top/vincent1230/technology/website/797/)，欢迎各位与我交流！
 
 
 ###### 如果你喜欢本主题，请一定给个 Star，至为感谢<(￣︶￣)~
